@@ -15,14 +15,14 @@ Extract Bitcoin data using the Coinbase API, transform it, and load it into a da
 ## Environment Set-up
 If you want to use the etl_bitcoin_postgre.py, you need to set up your environment correctly. 
 
-**1. Install dependencies:**
+**1. Install dependencies:**  
 If you don't have Poetry installed, follow the [official documentation](https://python-poetry.org/docs/).
 
 ```bash
 poetry install
 ```
 
-**2. Set-up the environment variables**
+**2. Set-up the environment variables**  
 Create a `.env` file in the project root and add the following variables:
 
 ```
@@ -33,7 +33,7 @@ DB_HOST=host
 DB_PORT=port
 ```
 
-**3. Database**
+**3. Database**  
 Make sure the PostgreSQL database is configured and accessible.
 
 ## How to Run
